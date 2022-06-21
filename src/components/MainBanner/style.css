@@ -1,0 +1,35 @@
+.BannerWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.MyImage {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.DescriptionWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ContentWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    font-size: 28pt;
+    top: 20%;
+    pointer-events: none;
+}
+#mainBannerParticles{
+    width: 100%;
+    height: 85%;
+}

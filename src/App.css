@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+#lo{
+  height: 120%;
+  width: 120%;
+}
+.ProjectsWrapper {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath5868%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3ccircle r='28.29' cx='1159.92' cy='385.96' fill='rgba(55%2c 52%2c 52%2c 0.6)'%3e%3c/circle%3e%3ccircle r='17.33' cx='418.49' cy='448.65' fill='url(%23SvgjsLinearGradient5869)'%3e%3c/circle%3e%3ccircle r='38.515' cx='1330.37' cy='92.77' fill='url(%23SvgjsLinearGradient5870)'%3e%3c/circle%3e%3ccircle r='19.46' cx='824.74' cy='178.02' fill='url(%23SvgjsLinearGradient5871)'%3e%3c/circle%3e%3ccircle r='37.13' cx='1243.28' cy='458.09' fill='rgba(55%2c 52%2c 52%2c 0.6)'%3e%3c/circle%3e%3ccircle r='44.705' cx='1148.53' cy='86.05' fill='url(%23SvgjsLinearGradient5872)'%3e%3c/circle%3e%3ccircle r='52.915' cx='351.16' cy='143.5' fill='rgba(55%2c 52%2c 52%2c 0.6)'%3e%3c/circle%3e%3ccircle r='21.85' cx='1314.36' cy='166.4' fill='url(%23SvgjsLinearGradient5873)'%3e%3c/circle%3e%3ccircle r='50.86' cx='912.97' cy='300.91' fill='url(%23SvgjsLinearGradient5874)'%3e%3c/circle%3e%3ccircle r='37.96' cx='644.75' cy='70.18' fill='url(%23SvgjsLinearGradient5875)'%3e%3c/circle%3e%3ccircle r='33.69' cx='832.48' cy='454.53' fill='url(%23SvgjsLinearGradient5876)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath5868'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='383.83000000000004' y1='413.99' x2='453.15000000000003' y2='483.31' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient5869'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 96%2c 0.57)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1253.34' y1='15.739999999999995' x2='1407.3999999999999' y2='169.8' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient5870'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 96%2c 0.57)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='785.82' y1='139.10000000000002' x2='863.6600000000001' y2='216.94000000000003' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient5871'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 96%2c 0.57)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1059.12' y1='-3.3599999999999994' x2='1237.9399999999998' y2='175.45999999999998' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient5872'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 96%2c 0.57)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1270.6599999999999' y1='122.7' x2='1358.06' y2='210.10000000000002' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient5873'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 96%2c 0.57)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='811.25' y1='199.19000000000003' x2='1014.69' y2='402.63' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient5874'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 96%2c 0.57)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='568.83' y1='-5.739999999999995' x2='720.6700000000001' y2='146.10000000000002' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient5875'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 96%2c 0.57)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='765.1' y1='387.15' x2='899.86' y2='521.91' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient5876'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 96%2c 0.57)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  animation: animatedBackground 5s linear infinite alternate;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0% 100%;
+  }
+}
