@@ -2,17 +2,19 @@ import React from "react";
 import "./style.css";
 import Aos from "aos";
 import "aos/dist/aos.css"
-export const Project = ({ projectImage, projectTitle, projectDescription, projectTechnologies,isLeft}) => {
+export const Project = ({ projectImage, projectTitle, projectDescription, projectTechnologies,isLeft,projectLink}) => {
   Aos.init()
   return (
     <div className={`projectWrapper ${isLeft ? "align-left" : ""}`} data-aos={isLeft ?  "fade-right" : "fade-left"} data-aos-duration={1500}>
-
         {
           isLeft
           ?<>
-          <div className="ProjectImage">
-            <img src={projectImage} style={{width: "100%", height: "100%", borderRadius: "10px"}}/>
-          </div>
+          <a href={projectLink} target="_blank">
+            <div className="ProjectImage">
+              <img src={projectImage} style={{width: "100%", height: "80%",objectFit: "contain", top:0}}/>
+              <p style={{marginBottom : "20px"}}>{projectDescription}</p>
+            </div>
+          </a>
           <div className="ProjectContentWrapper">
             <div className="ProjectTitle">
                 {projectTitle}
@@ -23,14 +25,8 @@ export const Project = ({ projectImage, projectTitle, projectDescription, projec
                 })}
             </div>
           </div>
-          <div className="ProjectDescription">
-            {projectDescription}
-          </div>
         </>
           :<>
-          <div className="ProjectDescription">
-            {projectDescription}
-          </div>
           <div className="ProjectContentWrapper">
             <div className="ProjectTitle">
                 {projectTitle}
@@ -41,9 +37,12 @@ export const Project = ({ projectImage, projectTitle, projectDescription, projec
                 })}
             </div>
           </div>
-          <div className="ProjectImage">
-            <img src={projectImage} style={{width: "100%", height: "100%", borderRadius: "10px"}}/>
-          </div>
+          <a href={projectLink} target="_blank">
+            <div className="ProjectImage">
+              <img src={projectImage} style={{width: "100%", height: "80%",objectFit: "contain", top:0}}/>
+              <p style={{marginBottom : "20px"}}>{projectDescription}</p>
+            </div>
+          </a>
         </>
         }
 

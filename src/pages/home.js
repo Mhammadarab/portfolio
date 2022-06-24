@@ -5,7 +5,7 @@ import { projects } from "../projects";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <MainBanner>
       </MainBanner>
       <div className="ProjectsWrapper">
@@ -15,7 +15,7 @@ const Home = () => {
           })
         }
       </div>
-    </>
+    </div>
   );
 };
 

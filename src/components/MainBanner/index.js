@@ -27,17 +27,17 @@ export const MainBanner = () =>{
                         <p>I always like to learn new technologies</p>
                     </div>
                     <div className="SocialsWrapper">
-                        <a>
+                        <a href="mailto:mhammadarab55@gmail.com">
                             <div className="IconWrapper">
                                 <SiGmail size="50%"></SiGmail>
                             </div>
                         </a>
-                        <a>
+                        <a target={"_blank"} href="https://www.linkedin.com/in/mohammad-arab-86a326223/">
                             <div className="IconWrapper">
                                 <AiFillLinkedin size="50%"></AiFillLinkedin>
                             </div>
                         </a>
-                        <a>
+                        <a target={"_blank"} href="https://github.com/M0Arab">
                             <div className="IconWrapper">
                                 <FiGithub size="50%"></FiGithub>
                             </div>

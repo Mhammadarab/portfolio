@@ -9,7 +9,7 @@ justify-content: space-between;
 padding: 0.5rem calc((100vw - 1000px)/2);
 `
 
-export const NavLink = styled(Link)`
+export const NavLink = styled.a`
 color: #fff;
 display: flex;
 align-items: center;

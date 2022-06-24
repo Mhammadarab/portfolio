@@ -11,9 +11,7 @@ const Navbar = () => {
             <FaBars></FaBars>
         </BarsWrapper>
         <NavMenu> 
-            <NavLink to="/cv" activestyle="true">
-                CV
-            </NavLink>
+            <NavLink target={"_blank"} href='https://drive.google.com/file/d/1ftrta7ibEmhLbt9n5bJNmA73WVrz0_Jk/view?usp=sharing'> CV </NavLink>
         </NavMenu>
     </Nav>
   );

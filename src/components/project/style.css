@@ -2,12 +2,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 90%;
+    width: 95%;
     height: 70vh;
-    padding: 30px;
+    scroll-snap-align: start;
+    margin-bottom: 50px;
 }
 .align-left{
     justify-content: flex-start;
+    margin-left: 80px;
 }
 
 .ProjectContentWrapper {
@@ -36,31 +38,27 @@
 
 .ProjectTechnology{
     display: flex;
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     background: rgba(0,109,172,0.3);
     margin: 5px;
-}
-
-.ProjectDescription{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 70%;
-    width: 40%;
-    color: white;
-    padding: 10px;
-    overflow-wrap: break-word;
-    background: rgba(0,109,172,0.3);
-    border-radius: 10px;
-    font-size: 20pt;
-    text-align: start;
+    justify-content: center;
+    align-items: center;
 }
 .ProjectImage{
-    width: 40%;
+    width: 45%;
     height: 100%;
     cursor: pointer;
+    background: rgba(0,109,172,0.3);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: start;
+    color: white;
+    font-size: 16pt;
+    border-radius: 10px;
 }
 .ProjectImage:hover{
     transform: scale(1.01);
