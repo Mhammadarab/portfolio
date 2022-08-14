@@ -23,7 +23,7 @@ export const MainBanner = () =>{
                     <div className="DescriptionWrapper">
                         <p>Hello, My name is Mohammad</p>
                         <p>A Software development student at Grafisch Lyceum Rotterdam</p>
-                        <p>I enjoy creating useful website and applications!</p>
+                        <p>I enjoy creating useful websites and applications!</p>
                         <p>I always like to learn new technologies</p>
                     </div>
                     <div className="SocialsWrapper">
