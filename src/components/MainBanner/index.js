@@ -1,7 +1,7 @@
 import particleOptions from "./particles.json"
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles"
-import profilePicture from "../../images/me.jpg"
+import profilePicture from "../../images/me2jpg.jpg"
 import "./style.css"
 import {SiGmail} from "react-icons/si"
 import {AiFillLinkedin} from "react-icons/ai"
